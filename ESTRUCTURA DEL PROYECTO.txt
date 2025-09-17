@@ -1,0 +1,14 @@
+juana-app/
+├── app/
+│   ├── src/main/
+│   │   ├── java/com/juana/app/
+│   │   │   ├── MainActivity.java    # Actividad principal
+│   │   │   └── JuanaService.java    # Servicio de voz
+│   │   ├── res/
+│   │   │   ├── layout/              # Interfaces
+│   │   │   ├── drawable/            # Iconos
+│   │   │   └── values/              # Recursos
+│   │   └── AndroidManifest.xml      # Configuración
+├── gradle/                          # Configuración Gradle
+├── scripts/                         # Scripts útiles
+└── README.md                        # Este archivo
