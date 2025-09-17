@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)  // CAMBIAR A PREFER_PROJECT
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "JUANA_APP"
+include ':app'
