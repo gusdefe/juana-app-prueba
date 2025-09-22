@@ -1,5 +1,11 @@
+package com.juana.app;
+
 public interface IVoiceEngine {
     void start();
     void stop();
-    String getVoiceOutput();
+
+    interface VoiceCommandListener {
+        void onCommandRecognized(String commandText);
+        void onError(Exception e);
+    }
 }
