@@ -1,5 +1,11 @@
-// Lógica pura de comandos para JuanaBrain
+package com.juana.app;
 
 public class JuanaBrain {
-    // Aquí se pueden agregar métodos y lógica de comandos
+    public String processVoiceCommand(String commandText) {
+        // Ejemplo simple
+        if ("saludar".equalsIgnoreCase(commandText)) {
+            return "¡Hola! ¿En qué puedo ayudarte?";
+        }
+        return "Comando no reconocido: " + commandText;
+    }
 }
